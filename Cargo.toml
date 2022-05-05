@@ -1,0 +1,11 @@
+[package]
+name = "mactime"
+version = "0.2.0"
+edition = "2021"
+
+[dependencies]
+clap = "3.1"
+chrono = { version = "0.4", features = ["serde"] }
+csv = "1.1"
+serde = { version = "1", features = ["derive"] }
+bitflags = "1.3"
